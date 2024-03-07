@@ -75,7 +75,7 @@ public class Main {
 			
 			
 			// 방문 했으면 넘기기, 최소가 아니면 넘어가!!
-			if(dp[S][node.num] > node.sum) continue;
+			// if(dp[S][node.num] > node.sum) continue;
 			
 			if(visited[node.num]) continue;
 			visited[node.num] = true;
